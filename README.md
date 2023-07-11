@@ -8,8 +8,8 @@ While functional, Maptool **does not** directly support this.
 Tokens that use any form of offset or layout edited values, should **expect** misalignment.
 
 To get real value from this library token, there is an expectation that you know how to edit macros  
-and can navigate the Maptool Wiki.  This skillset can allow you to integrate this into your ways of working  
-or framework that you are using.
+and can navigate the Maptool Wiki.  This skillset will allow you to integrate the features offered  
+into your ways of working or the framework that you are using.
 
 An overlay is created as you mouse over tokens.  
 The overlay provides up to 9 tiles that you can click on that run macros.  
