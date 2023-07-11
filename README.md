@@ -19,4 +19,9 @@ Up to 6 overlays can be configured:
     - JSON array sent to macros: `["selected token id","mouse over id"]`
     - The values will be empty if not detected
 
+
+On the library token, you will find these Macro Groups: **Self, PC, Friend, NPC, Foe, Other**.  
+Each group will contain 9 macros that align with each tile location on the overlay.  
+
+These are 9 overlays that I've included as default options.  
 ![alt text](https://github.com/Jmr3366/Lib_onMouseOverlay/blob/main/onMouseOverlay-incOverlays.jpg?raw=true)
