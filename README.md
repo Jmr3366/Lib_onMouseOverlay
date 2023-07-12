@@ -24,5 +24,8 @@ Up to 6 overlays can be configured:
 On the library token, you will find these Macro Groups: **Self, PC, Friend, NPC, Foe, Other**.  
 Each group will contain 9 macros that align with each tile location on the overlay.  
 
-These are 9 overlays that I've included as default options.  
+`onMouseOverlay_Image_Template.xcf` file is for GIMP at https://www.gimp.org/ 
+It includes several options to create custom overlays.
+
+These are 9 overlays included as default.  
 ![alt text](https://github.com/Jmr3366/Lib_onMouseOverlay/blob/main/onMouseOverlay-incOverlays.jpg?raw=true)
