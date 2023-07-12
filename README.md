@@ -5,20 +5,26 @@ Library token for the Maptool VTT application.
 
 This library token uses functionality that aligns an overlay with a token.  
 While functional, Maptool **does not** directly support this.   
-Tokens that use any form of offset or layout edited values, should **expect** misalignment.
+
+This Library Token does NOT support:
+- Tokens that use any form of offset or layout edited values (**expect** misalignment).
+- Macros that include improper use of `frame5`, `dialog5`, or `overlay` functions.
 
 To get real value from this library token, there is an expectation that you know how to edit macros  
-and can navigate the Maptool Wiki.  This skillset will allow you to integrate the features offered  
-into your ways of working or the framework that you are using.
+and can navigate the Maptool Wiki (https://rptools.hyperbooks.com/index.php/Main_Page).  
+This skillset will allow you to integrate the features offered here,  into your ways of working  
+or the framework that you are using.
 
+Run the `Info` Macro once loaded in Maptool for more information.
+
+## General Summary
 An overlay is created as you mouse over tokens.  
 The overlay provides up to 9 tiles that you can click on that run macros.  
 Up to 6 overlays can be configured:
 - **Self, PC, Friend, NPC, Foe, Other**
-  - Each overlay can contain up to 9 different macros
-  - Each macro receives the Selected Token ID and the Mouse Over ID
-    - JSON array sent to macros: `["selected token id","mouse over id"]`
-    - The values will be empty if not detected
+  - Each overlay can contain up to 9 different tiles
+  - Each tiles links to a macro that receives this JSON array: `["selected token id","mouse over id"]`
+      - The values will be empty if not detected
 
 
 On the library token, you will find these Macro Groups: **Self, PC, Friend, NPC, Foe, Other**.  
