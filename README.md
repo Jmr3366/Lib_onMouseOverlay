@@ -12,7 +12,7 @@ This Library Token does NOT support:
 - Macros that include improper use of `frame5`, `dialog5`, or `overlay` functions.
 
 To get real value from this library token, there is an expectation that you know how to edit macros  
-and can navigate the Maptool Wiki (https://rptools.hyperbooks.com/index.php/Main_Page).  
+and can navigate the Maptool Wiki (https://wiki.rptools.info/index.php/Main_Page).
 This skillset will allow you to integrate the features offered here,  into your ways of working  
 or the framework that you are using.
 
